@@ -37,10 +37,10 @@ class Upconv(nn.Module):
 
     def _initialize_weights(self):
         init.normal_(self.conv1.weight, init.calculate_gain('leaky_relu'))
-        init.normal_(self.conv1.weight, init.calculate_gain('leaky_relu'))
-        init.normal_(self.conv1.weight, init.calculate_gain('leaky_relu'))
-        init.normal_(self.conv1.weight, init.calculate_gain('leaky_relu'))
-        init.normal_(self.conv1.weight, init.calculate_gain('leaky_relu'))
-        init.normal_(self.conv1.weight, init.calculate_gain('leaky_relu'))
-        init.normal_(self.conv1.weight)
+        init.normal_(self.conv2.weight, init.calculate_gain('leaky_relu'))
+        init.normal_(self.conv3.weight, init.calculate_gain('leaky_relu'))
+        init.normal_(self.conv4.weight, init.calculate_gain('leaky_relu'))
+        init.normal_(self.conv5.weight, init.calculate_gain('leaky_relu'))
+        init.normal_(self.conv6.weight, init.calculate_gain('leaky_relu'))
+        init.normal_(self.conv7.weight)
         
